@@ -1,0 +1,511 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:textAlignment="center"
+         android:textColor="@color/black"
+         android:textStyle="bold"
+         android:textSize="25sp"
+         android:padding="10dp"
+         android:background="#2196F3"
+         android:text="Table in Android"/>
+
+
+     <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_margin="20dp">
+     <TableRow
+         android:id="@+id/tableRow1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:background="@android:color/black">
+
+         <TextView
+             android:id="@+id/textView2"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginTop="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="10dp"
+             android:text="IRDA Primary Code "
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black"
+             android:textStyle="bold" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginTop="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="10dp"
+             android:text="Particulars"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black"
+             android:textStyle="bold" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_marginTop="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="10dp"
+             android:text="Amount Claimed"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black"
+             android:textStyle="bold" />
+     </TableRow>
+
+
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="100000"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Room Nursing Charges"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:id="@+id/txtDetailsOneId"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="2100"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+     </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="200000"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="ICU Charges"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="4500"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+     </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="300000"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="OT Charges"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="31000"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+     </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="400000"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Medicine Consumables charges"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="3310"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+     </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="500000"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Professional fees charges"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="262686"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+     </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="600000"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Investigation Charges"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="4550"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+     </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="800000"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Miscellaneous charges"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="350"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black" />
+         </LinearLayout>
+     </TableRow>
+
+     <TableRow
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginBottom="20dp"
+         android:background="@android:color/black">
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="center"
+             android:padding="5dp"
+             android:text="Total Claimed Amount:"
+             android:textAppearance="?android:attr/textAppearanceMedium"
+             android:textColor="@color/black" />
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_marginBottom="1dp"
+             android:layout_marginLeft="1dp"
+             android:layout_marginRight="1dp"
+             android:layout_weight="1"
+             android:background="@color/white"
+             android:gravity="right"
+             android:orientation="vertical"
+             android:padding="5dp">
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_weight="1"
+                 android:text="308496"
+                 android:textAppearance="?android:attr/textAppearanceMedium"
+                 android:textColor="@color/black"
+                 android:textStyle="bold" />
+         </LinearLayout>
+     </TableRow>
+ </TableLayout>
+
+
+
+
+
+
+
+ </LinearLayout>
+
+</ScrollView>
